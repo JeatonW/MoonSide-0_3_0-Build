@@ -1,0 +1,40 @@
+Java 26 is required to run this program. This is a very early beta
+build, so many things are still incomplete. Try double clicking the
+jar file to run the program. It is required to have the "natives" and
+"res" folders in the same directory as the jar file.
+
+If you have Java 26 and double clicking the runnable jar file still
+	produces a java exception, then you can run the jar manually
+	by going to the directory in command prompt and typing:
+		java -jar 0_3_1.jar
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Controls:
+
+ESC: Settings menu
+WASD: Move
+L: Accept (in menu) OR Dialogue Box (currently disabled)
+Semicolon: Back (in menu) OR Battle HUD
+Apostrophe: Open or completely close menu
+P: Main menu state preview
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+*** IMPORTANT NOTES:
+
+	- The graphics engine just went through a massive overhaul,
+	and therefore a couple of things broke such as the dialogue
+	box and a couple of images that had certain effects applied
+	to them. So, the dialoguebox and certain images in the
+	main menu preview are currently disabled. Also, a very rare
+	crash can randomly occur.
+
+	- This game engine is made completely from scratch; the only
+	things being used for this engine are .java files and JOGL
+	natives (for use of OpenGL). 
+
+	- Some of the sprites and artwork used are ripped from the game
+	Earthbound (free and legal to have on your computer). These
+	are placeholders, and will not be used if this project is to
+	be completed.
